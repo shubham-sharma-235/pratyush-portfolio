@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeafPulse</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/favicon-pfp-2.jpg"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .video video{
+        width: 80vw;
+      }
+      @media(max-width:600px){
+        .video video{
+          width: 94vw;
+          margin: 1rem 0;
+        }
+      }
+      
+      nav .navbar ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      nav a {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: gilroy, sans-serif;
+        color: #fff;
+      }
+
+    </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <ul>
+        <a href="../index.html" target="_blank">Pratush Singhal</a>
+        <div class="nav-middle">
+          <a href="./leafpulse.html" target="_blank">leafPulse</a>
+          <a href="./pestid.html" target="_blank">PestID</a>
+          <a href="./aatmanirbharBharat.html" target="_blank">Aatmanirbhar Bharat</a>
+          <a href="./artinnovate.html" target="_blank">Artinnovate</a>
+          <a href="./aquaconnect.html" target="_blank">AquaConnect</a>
+          <a href="./hetok.html" target="_blank">Hetok</a>
+          <a href="./research.html" target="_blank"">Research</a>
+        </div>
+        <a href="../pratyush-resume.pdf" target="_blank">Resume</a>
+      </ul>
+    </div>
+  </nav>
+
+
+    <div class="main">
+        <div class="project-page-heading">
+            <h2 class="js-reveal o-title">
+              <span class="line-parent"
+                ><span class="line-child">LeafPulse </span></span
+              >
+
+              <!-- <span class="line-parent"
+              ><span class="line-child"
+              >p<span class="o-accent">r</span>ojects</span
+              ></span
+              > -->
+            </h2>
+            <div class="projects-buttons">
+              <a href="https://drive.google.com/file/d/1sBcBWIrDWXcQOg4pDBb4Lyqx92tHIDkF/view?usp=sharing" target="_blank">Research Paper</a>
+              <a href=" https://leafpulse.streamlit.app " target="_blank">Software</a>
+              <a href="https://github.com/PratyushSinghal/LeafPulse" target="_blank">Code</a>
+            </div>
+        </div>
+
+        <div class="about-project">
+          <h3>About LeafPulse</h3>
+            <p>
+              During a visit to my grandparents' village, I witnessed a simple yet serious issue affecting farmers: they weren’t sure how much water their crops needed. Walking along the irrigation channels, I saw some fields waterlogged, while others, just a short distance away, lay dry and cracked. The scene highlighted a harsh reality—farmers were relying on guesswork rather than informed decisions to irrigate their fields. As I researched further, I realized that millions of farmers across India face this same daily struggle.
+            </p>
+            <p>
+              Agriculture consumes nearly 78% of India’s freshwater, yet up to 70% of this water is wasted due to inefficient irrigation practices. This means that nearly 56% of the country’s freshwater reserves are lost. With the majority of India’s population dependent on agriculture, these inefficiencies don’t just threaten individual farmers—they undermine economic stability, food security, and the well-being of millions. To address this issue, I founded LeafPulse.
+            </p>
+            <p>
+              LeafPulse is an advanced computer-vision solution that empowers farmers to make data-driven irrigation decisions by analyzing plant hydration through the microscopic imaging of stomata. Using the YOLOv8 architecture, I trained the model with over 100 primary-collected micrographs of leaves, classified into open or closed stomata, achieving an accuracy of 92%. I curated the dataset meticulously to avoid bias, capturing balanced samples from the leaf's lower epidermal section, where stomata are denser and more visible. I plucked leaves at different times of the day and extracted thin epidermal peels using precise cuts. To enhance cell visibility, I further stained the peels with Safranin and mounted them with glycerin, ensuring stability for microscopic inspection at 40x magnification.
+            </p>
+            <p>
+              Training involved binary classification over 600 epochs, using libraries like OpenCV, PyTorch, and Ultralytics’ YOLO module. Cross-validation helped ensure robustness in classification accuracy. LeafPulse also includes a chatbot interface, allowing farmers to access real-time, tailored recommendations. Currently being tested in partnership with agricultural research centers, LeafPulse aims to enhance crop health and promote sustainable water use by turning microscopic data into actionable insights.
+            </p>
+         </div>
+
+
+          <div class="project-snapshots">
+            <div>
+              <img src="../images/leafPulse/leafpulse-2.png" alt="">
+              <img src="../images/leafPulse/leafpulse-3.png" alt="">
+            </div>
+
+            <div>
+              <img src="../images/leafPulse/leafpulse-4.png" alt="">
+              <img src="../images/leafPulse/leafpulse-4-2.png" alt="">
+            </div>
+          </div>
+
+
+          
+
+
+          <div class="video">
+            <video src="../images/leafPulse/video.mp4" controls autoplay></video>
+          </div>
+
+
+          
+      <div class="about-project achievements-heading">
+          <h3>Testing</h3>
+          <p>LeafPulse is undergoing a six-month testing phase at the Rajasthan Agricultural Research Institute (RARI), concluding in November 2024. After this phase, we plan to expand our model to other regions, making it easier for farmers to assess plant water needs and optimize irrigation decisions.</p>
+       </div>
+        
+       <div style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
+        <object class="project-pdf" 
+        data="../images/leafPulse/testing-approval.pdf"
+        style="margin-bottom: 4rem;margin-top: 2rem;">
+        </object>
+       </div>
+        
+        <div class="about-project achievements-heading">
+            <h3>Milestones</h3>
+         </div>
+
+
+        <div class="achievement-images">
+          <div class="achievement-contianer">
+            <img src="../images/leafPulse/leafpulse-1.png" alt="">
+            <p>
+              Among Top 12 at India Innovation Challenge 2023
+            </p>
+          </div>
+
+          <div class="achievement-contianer">
+            <img src="../images/leafPulse/leafpulse-5.png" alt="">
+            <p>
+              Received recognition from national media channels 
+            </p>
+          </div>
+        </div>
+        
+        <div class="achievement-images">
+          <div class="achievement-contianer">
+            <img style="width: 100%;" src="../images/leafPulse/acpt-letter.png" alt="">
+            <p>
+              Presented my research to international researchers at ICSEAT 2024. Publishing in SpringerLink
+            </p>
+          </div>
+        </div>
+
+       <!-- <div class="pdf-container">
+        <iframe id="pdfViewer" src="your-pdf-file.pdf" type="application/pdf"></iframe>
+      </div>
+     -->
+       
+
+    </div>
+    <script>
+      let currentIndex = 0;
+      
+      function showSlide(index) {
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        if (index >= totalSlides) currentIndex = 0;
+        else if (index < 0) currentIndex = totalSlides - 1;
+        else currentIndex = index;
+        
+        const offset = -currentIndex * 100;
+        document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
+      }
+      
+      function nextSlide() {
+        showSlide(currentIndex + 1);
+      }
+      
+      function prevSlide() {
+        showSlide(currentIndex - 1);
+      }
+      
+
+    </script>
+    
+</body>
+</html>

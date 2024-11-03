@@ -1,0 +1,300 @@
+body {
+    background-color: #fff;
+}
+.project-page-heading{
+    margin: 20vh 0rem;
+    margin-bottom: 6vh!important;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    padding: 0 2rem;
+}
+.project-snapshots img{
+    height: 50vh;
+    margin: 2rem 0;
+}
+.about-project {
+    margin: 1rem 0;
+    /* text-align: center;
+     */
+}
+.about-project h3{
+    margin-bottom: 2rem;
+    color: #000;
+    font-size: 3rem;
+    color: #383838;
+    font-weight: 600;
+}
+.about-project p{
+    color: #000;
+    margin: 12px;
+    font-weight: 200!important;
+    font-family: "Poppins", sans-serif;
+}
+
+.project-snapshots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-snapshots div{
+    display: flex;
+    flex-direction: row;
+}
+.project-snapshots img{
+    height: 28vw;
+}
+
+.achievements-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #3838382b;
+    padding: 1rem 0;
+    padding-top: 3rem;
+    margin: 2rem 0;
+}
+.achievement-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.achievement-images img{
+    height: 20vw;
+    margin: 0 .5rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.projects-buttons{
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.projects-buttons a{
+    margin: 2rem .2rem;
+    border: 1px solid #000;
+    color: #000;
+    padding: 14px 30px;
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #74747483;
+    font-weight: 500;
+}
+.projects-buttons a:hover{
+    transition: all ease-in-out .3s;
+    color: #fff;
+    background-color: #383838;
+}
+
+
+.project-pdf {
+    width: 54%; 
+    height: 600px; 
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 0rem;
+}
+
+.achievement-contianer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #38383813;
+    padding: 1rem;
+    margin: 10px;
+}
+.achievement-contianer p{
+    color: #000!important;
+    font-size: 12px;
+    margin: 1rem;
+}
+/* ----------------------------- */
+
+/* Arrow button styling */
+.nav-left, .nav-right {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+  }
+  
+  .nav-left {
+    left: 20px;
+  }
+  
+  .nav-right {
+    right: 20px;
+  }
+  
+  .nav-left:hover, .nav-right:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+@media(max-width:600px){
+    .line-child{
+        font-size: 15vw;
+    }
+    .main{
+        padding: 0 .6rem!important;
+    }
+    .project-page-heading {
+        margin: 18vh 0rem;
+        margin-bottom: 4vh !important;
+    }
+    .projects-buttons {
+        margin: 1rem 0rem;
+        display: grid;
+    }
+    .projects-buttons a {
+        margin: .2rem .2rem;
+        padding: 12px 8px;
+        text-decoration: none;
+        transition: all ease-in-out .3s;
+        font-size: 12px;
+        width: 80vw;
+    }
+    .project-snapshots img {
+        /* height: 50vh; */
+        margin: .2rem 0;
+    }
+
+    .achievements-heading {
+        padding: 1rem 0;
+        padding-top: 2rem;
+        margin: 2rem 0;
+    }
+    .about-project h3 {
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+    .about-project p {
+        color: #000;
+        margin: 10px;
+        font-weight: 400 !important;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        padding: 4px;
+    }
+
+    .achievement-images{
+        flex-direction: column;
+    }
+    .achievement-images img{
+        height: 40vw;
+        width: 90vw;
+        margin: 1rem 0;
+    }
+
+    .project-pdf {
+        width: 100%; 
+        height: 300px; 
+        margin-top: 0rem;
+    }
+
+    .project-snapshots div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+  
+
+@media (max-width: 1000px) {
+    .achievement-contianer{
+        flex-direction: column;
+    }
+    .o-title > span {
+        overflow: hidden;
+        padding: 1.2rem 0;
+        color:#383838;
+      }
+}
+
+@media (max-width: 600px) {
+    .project-snapshots img{
+        width: 90vw;
+        height: auto;
+    }
+    .achievement-contianer{
+        width: 96vw;
+        padding: 1rem;
+    }
+}
+
+
+/* ---------------------------------- */
+
+.slider-main{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.slider-container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.slide img {
+  width: 100%;
+  display: block;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  border-radius: 50%;
+  background: #fff;
+  padding: 8px;
+  cursor: pointer;
+}
+.arrow-left {
+  left: 10px;
+}
+.arrow-right {
+  right: 10px;
+}
+

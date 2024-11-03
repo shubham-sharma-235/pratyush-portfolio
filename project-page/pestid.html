@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PestID</title>
+    <link rel="stylesheet" href="../css/style1.css">
+    <link rel="stylesheet" href="../css/project-page.css">
+    <link rel="icon" href="../images/favicon-pfp-2.jpg"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+      body{
+        font-family: "Poppins", serif!important;
+      }
+      .project-snapshots-2 img{
+        width: 45vw;
+      }
+      .patent-letter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+      }
+      .patent-letter object{
+        width: 50%;
+      }
+      @media(max-width:600px){
+        .project-snapshots-2 img{
+          width: 85vw;
+          height: 100%;
+        }
+        .project-snapshots img{
+          width: 85vw;
+          height: 100%;
+        }
+        .patent-letter{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+        }
+        .patent-letter object{
+          width: 90%;
+        }
+        .patent-letter img{
+          width: 100vw;
+        }
+      }
+      .projects-buttons {
+          margin: 0;
+      }
+      .achievement-contianer {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          background-color: #fff;
+          padding: 1rem;
+          margin: 10px;
+      }
+      .project-snapshots div:nth-child(2) img{
+          width: 45vw;
+      }
+      @media(max-width:700px){
+        .project-snapshots div:nth-child(2) img{
+          width: 90vw;
+        }
+      }
+    </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <ul>
+        <a href="../index.html" target="_blank">Pratush Singhal</a>
+        <div class="nav-middle">
+          <a href="./leafpulse.html" target="_blank">leafPulse</a>
+          <a href="./pestid.html" target="_blank">PestID</a>
+          <a href="./aatmanirbharBharat.html" target="_blank">Aatmanirbhar Bharat</a>
+          <a href="./artinnovate.html" target="_blank">Artinnovate</a>
+          <a href="./aquaconnect.html" target="_blank">AquaConnect</a>
+          <a href="./hetok.html" target="_blank">Hetok</a>
+          <a href="./research.html" target="_blank"">Research</a>
+        </div>
+        <a href="../pratyush-resume.pdf" target="_blank">Resume</a>
+      </ul>
+    </div>
+  </nav>
+    
+    <div class="main">
+        <div class="project-page-heading">
+          <h2 class="js-reveal o-title">
+            <span class="line-parent"
+              ><span class="line-child">PestID</span></span
+            >
+
+            <!-- <span class="line-parent"
+            ><span class="line-child"
+            >p<span class="o-accent">r</span>ojects</span
+            ></span
+            > -->
+          </h2>
+          <div class="projects-buttons">
+            <a href="../images/pestID/PestID.pdf">Project Details</a>
+          </div>
+      </div>
+
+        <div class="about-project">
+            <h3>About PestID</h3>
+                     
+<p>
+  Despite advances in pest management, farmers face constant challenges with timely and accurate pest identification, relying on human observation that’s time-consuming and often imprecise. This is where PestID steps in—combining advanced technology with on-the-ground practicality to create a solution that’s both accurate and accessible.
+</p>
+
+<p>
+  PestID is an AI-powered pest identification solution tailored for agriculture. At its core, PestID uses a DenseNet-based model specifically optimized for pest recognition. I enhanced the model by adding an extra dense block, totaling five dense layers, to deepen the network and improve feature extraction. A transitional block was also added, with a compression factor set to 0.7, allowing the model to retain more feature maps for richer data representation. The architecture includes customized pooling layers (3x3 and 7x7) for spatial reduction, balancing detail retention and processing efficiency. With these refinements, PestID achieves high precision in pest classification, helping farmers make proactive, informed decisions.
+
+</p>
+<p>
+  The technology behind PestID doesn’t stop at machine learning models. I integrated PestID into IoT networks deployed across 30+ farms in Chhareda village, where it continuously monitors crops in real-time, sending insights directly to farmers. Leveraging hardware such as ESP32 microcontrollers, Raspberry Pi, and OV5467 camera modules, this setup ensures continuous and automated pest identification in the field, minimizing human intervention while maximizing efficiency. This IoT integration allows PestID to operate autonomously across large areas, creating a networked solution that keeps farmers informed about pest threats and suggests timely countermeasures. 
+</p>
+
+        </div>
+
+
+         <div class="project-snapshots">
+          <div>
+            <img src="../images/pestID/ss1.jpeg" alt="">
+            <img src="../images/pestID/ss2.png" alt="">
+          </div>
+
+          <div>
+            <img src="../images/pestID/ss3.png" alt="">
+            <img  src="../images/pestID/ss4.png" alt="">
+          </div>
+        </div>
+
+
+        <div class="about-project achievements-heading">
+          <h3>Patent Application</h3>
+          <p>
+            A patent for PestID was published in the Indian Official Journal of the Patent Office, recognizing the innovation behind this pest identification technology.
+          </p>
+       </div>
+     
+        
+       <div style="display: flex;align-items: center;flex-direction: row;align-items: center;justify-content: center;">
+         <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;width: 100vw;margin-bottom: 2rem;">
+           <object class="project-pdf" 
+             data="../images/pestID/Full Details.pdf"
+             >
+           </object>
+         </div>
+
+        <div class="achievement-contianer" style="margin-left: -10vw;">
+          
+          <img style="width: 35vw;" src="../images/pestID/pestID-i1.png" alt="">
+        </div>
+        
+       </div>
+
+    </div>
+
+    <script>
+      let currentIndex = 0;
+      
+      function showSlide(index) {
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        if (index >= totalSlides) currentIndex = 0;
+        else if (index < 0) currentIndex = totalSlides - 1;
+        else currentIndex = index;
+        
+        const offset = -currentIndex * 100;
+        document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
+      }
+      
+      function nextSlide() {
+        showSlide(currentIndex + 1);
+      }
+      
+      function prevSlide() {
+        showSlide(currentIndex - 1);
+      }
+      
+
+    </script>
+</body>
+</html>
