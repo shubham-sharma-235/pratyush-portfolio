@@ -2513,7 +2513,7 @@ footer #c-circle {
     justify-content: space-between;
   }
   .c-honors__wrap > div:first-child {
-    width: 20%;
+    width: 8%;
     text-align: left;
   }
   .c-honors__wrap > div:first-child > svg {
@@ -2923,7 +2923,8 @@ html.has-scroll-dragging {
 .about-pratush p{
   color: #fff;
   /* margin-left: 4rem; */
-  width: 90%;
+  width: 100%;
+  font-size: 14px;
 }
 .about-pratush{
   display: flex;
@@ -2938,7 +2939,7 @@ html.has-scroll-dragging {
   .about-pratush p{
     color: #000;
     /* margin-left: 4rem; */
-    width: 90%;
+    width: 96%;
   }
   .about-pratush{
     display: flex;
@@ -2950,7 +2951,7 @@ html.has-scroll-dragging {
   }
   .about-pratush img{
     margin-top: 0px;
-    width: 30vw;
+    width: 34vw;
   }
 }
 
